@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo "Task executed at $(date)" >> task_log.txt
