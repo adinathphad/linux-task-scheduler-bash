@@ -6,9 +6,11 @@ Follow these commands step-by-step to run the project.
 
 ## ✅ 1. Install cron
 
-sudo apt update
-sudo apt install cron -y
-sudo service cron start
+ sudo apt update
+ 
+ sudo apt install cron -y
+ 
+ sudo service cron start
 
 Check:
 
@@ -18,30 +20,35 @@ crontab -l
 
 ## ✅ 2. Go to project folder
 
-cd ~
-mkdir linux-task-scheduler-bash
-cd linux-task-scheduler-bash
+ cd ~
+ 
+ mkdir linux-task-scheduler-bash
+ 
+ cd linux-task-scheduler-bash
 
 ---
 
 ## ✅ 3. Create main scheduler
 
-touch task_scheduler.sh
-chmod +x task_scheduler.sh
+ touch task_scheduler.sh
+
+ chmod +x task_scheduler.sh
 
 ---
 
 ## ✅ 4. Create example task
 
-touch ben.sh
-chmod +x ben.sh
+ touch ben.sh
+
+ chmod +x ben.sh
 
 ---
 
 ## ✅ 5. Run example manually (test)
 
-./ben.sh
-cat task_log.txt
+ ./ben.sh
+
+ cat task_log.txt
 
 ---
 
@@ -55,8 +62,9 @@ cat task_log.txt
 
 Choose:
 
-2
-1
+ 2
+
+ 1
 
 Enter FULL PATH:
 
