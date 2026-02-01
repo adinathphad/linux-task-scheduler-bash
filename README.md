@@ -25,3 +25,10 @@ This project provides a simple menu-driven interface to **schedule, manage, and 
 - Cron / Crontab
 
 ---
+linux-task-scheduler-bash/
+│
+├── task_scheduler.sh   (main scheduler)
+├── ben.sh              (example task)
+├── README.md
+├── .gitignore
+└── task_log.txt (auto-created, not pushed)
